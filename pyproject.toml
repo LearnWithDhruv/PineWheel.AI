@@ -1,0 +1,16 @@
+# pyproject.toml
+[tool.poetry]
+name = "graph_rag_pipeline"
+version = "0.1.0"
+description = "A graph-based RAG system for cybersecurity use cases"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "*"
+langgraph = "*"
+pymongo = "*"
+# Add any other dependencies here
+
+[tool.poetry.scripts]
+start = "src.main:main"
